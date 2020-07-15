@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:id="@+id/image"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_margin="10dp"/>
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageText"
+        android:text="Sample Text"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"/>-->
+
+</GridLayout>
